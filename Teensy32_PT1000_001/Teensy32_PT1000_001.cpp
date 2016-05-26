@@ -587,28 +587,5 @@ class TCmdList:public TCommand {
 */
 
 
-/*
-int TSerial::read() {
-  int d = SoftwareSerial::read();
-//  return d;
-
-  if (d<0) return d;
-  Serial.write(d);
-  if (d<32) {
-    switch (d) {
-      case 10:
-        Serial.print("[LF]");
-        break;
-      case 13:
-        Serial.print("[CR]");
-        break;
-      default:
-        Serial.print("<<"+String(d)+">>");
-      }
-    }
-  return d;
-  }
-
-*/
 
 
